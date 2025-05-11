@@ -1,3 +1,5 @@
+USE droptime;
+
 SELECT
     p.product_id AS productId,
     SUM(p.weight * op.quantity) AS totalWeight
